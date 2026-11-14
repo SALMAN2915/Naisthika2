@@ -129,6 +129,9 @@
     box-shadow: 0 5px 15px rgba(22, 119, 255, 0.2);
 }
 
+
+
+
 /* HERO CONTENT */
 #hero .hc {
     position: relative;
@@ -828,39 +831,7 @@ img{max-width:100%;display:block}
     .ico *{stroke-dashoffset:0!important}
 }
 
-.video-container {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    height: 100dvh;
-    min-height: 400px;
-    overflow: hidden;
-}
 
-.hero-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    transform: translate(-50%, -50%);
-    border: 0;
-    object-fit: cover;
-}
-
-/* Mobile Responsive */
-@media (max-width: 768px) {
-    .video-container {
-        height: 100vh;
-        height: 100dvh;
-        min-height: 350px;
-    }
-
-    .hero-video {
-        width: 100%;
-        height: 100%;
-    }
-}
 
 
 
